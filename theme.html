@@ -65,10 +65,9 @@
     <div class="row">
       <div class="span4 header">
         <div class="bg-img" style="background-image: url('{% if site.cover_photo %}{{ site.cover_photo }}{% else %}{{ assets['background.jpg'] }}{% endif %}');"></div>
-          <h2>{{ site.name }}</h2>
+          <h2><a href="/">{{ site.name }}</a></h2>
         <div class="gradient"></div>
         <div class="title">
-          <h1 color="white"><a href="/">{{ site.name }}</a></h1>
           <ul class="social">
             {% if site.twitter %}
             <li>
