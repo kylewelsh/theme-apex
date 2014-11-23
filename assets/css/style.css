@@ -255,8 +255,8 @@ div.header {
 }
 div.header div.gradient {
   position: absolute;
-  height: 25%;
-  top: 75%;
+  height: 20%;
+  top: 80%;
   left: 0;
   width: 100%;
   background: transparent;
